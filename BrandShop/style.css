@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,16 +7,19 @@
 body{
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
+    font-family: rubik;
 }
 
 .flex-container{
     display: flex;
     justify-content: space-between; 
+    align-items: center;
 }
 
 header{
     background-color: rgb(149, 149, 149);
     padding: 1rem;
+    font-size: 40px;
 }
 
 header nav li{
@@ -24,20 +28,18 @@ header nav li{
 
 header input {
     width: 9rem;
-    height: 2rem;
-    
+    height: 3rem;
 }
 
 img{
-    width: 50px;
+    width: 75px;
 }
 
 i{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 0, 0);
 }
 
 .icons {
-    padding-bottom: 20px;
-
+    padding-bottom: 50px;
 }
