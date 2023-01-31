@@ -7,7 +7,7 @@
 body{
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    font-family: rubik;
+    font-family: rubik, sans-serif;
 }
 
 .flex-container{
@@ -24,6 +24,7 @@ header{
 
 header nav li{
     display: inline-block;
+    text-decoration: none;
 }
 
 header input {
