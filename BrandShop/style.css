@@ -48,3 +48,24 @@ i{
 .icons {
     padding-bottom: 1px;
 }
+
+.input-container {
+    position: relative;
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+
+  input[type="text"] {
+    padding: 10px 20px 10px 1px;
+    font-size: 18px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 100%;
+  }
