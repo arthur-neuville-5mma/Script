@@ -69,3 +69,17 @@ i{
     border-radius: 5px;
     width: 100%;
   }
+
+.videoframe {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    max-height: 100vh;
+}
+
+video {
+    width: 100%;
+}
+
+.flex-item {
+    
+}
