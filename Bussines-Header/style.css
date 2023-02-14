@@ -1,0 +1,121 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-top {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
+.logo {
+     margin-right: auto;
+}
+    
+.business-name {
+    font-family: 'Corbel', sans-serif;
+    font-size: 1.5em;
+}
+    
+nav {
+    display: flex;
+    justify-content: center;
+    font-family: 'Corbel', sans-serif;
+    font-size: 1.2em;
+    margin: 0 1em;
+}
+    
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 1em;
+}
+    
+.header-center {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.hero-text {
+    width: 50%;
+    text-align: center;
+}
+    
+.title {
+    font-family: 'Corbel', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+    
+.subtitle {
+    font-family: 'Corbel Light Italic', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+    
+.mission-statement {
+    font-family: 'Corbel', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+    
+.cta-button {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-family: 'Corbel', sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+    
+.header-bottom {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+    
+.social-media a {
+    font-size: 2em;
+    color: #000;
+    margin: 0 1em;
+}
+    
+.fa-github {
+    color: #333;
+}
+    
+.fa-tiktok {
+    color: #e4405f;
+}
+    
+.fa-facebook {
+    color: #3b5998;
+}
