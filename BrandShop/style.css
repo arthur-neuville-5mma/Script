@@ -6,8 +6,8 @@
 
 body{
     background-color: rgb(255, 255, 255);
-    box-sizing: border-box;
     font-family: rubik, sans-serif;
+    box-sizing: border-box;
 }
 
 .flex-container{
@@ -94,6 +94,47 @@ video {
     width: 350px;
 }
 
+.meer { 
+    width: 350px;
+    gap: 0;
+}
+
 h2 {
     margin-left: 45px;
+}
+
+
+.flex-container-main-categories{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-bottom: 100px;
+    margin-right: 20px;
+}
+
+.flex-container-main-categories img {
+    width: 360px;
+}
+figure {
+    position: relative;
+
+}
+
+figcaption {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+button {
+    border-radius: 100px;
+    align-content: center;
+    padding: 5px 10px;
+    border-style: hidden;
+    background-color: white;
+    font-family: rubik, sans-serif;
+    font-size: 20px;
 }
