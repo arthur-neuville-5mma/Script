@@ -9,6 +9,11 @@
 }
 
 /* Header Styles */
+body{
+    background-image: url(images/template\ 3.png);
+    color: white;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -25,6 +30,9 @@ header {
     
 .logo {
      margin-right: auto;
+     padding-bottom: 40px;
+     font-size: 20px;
+
 }
     
 .business-name {
@@ -38,11 +46,12 @@ nav {
     font-family: 'Corbel', sans-serif;
     font-size: 1.2em;
     margin: 0 1em;
+    padding-bottom: 40px;
 }
     
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     margin: 0 1em;
 }
     
@@ -95,6 +104,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
     
 .social-media {
@@ -110,12 +120,15 @@ nav a {
     
 .fa-github {
     color: #333;
+    margin-right: 30px;
 }
     
 .fa-tiktok {
     color: #e4405f;
+    margin-right: 30px;
 }
     
 .fa-facebook {
     color: #3b5998;
+    margin-right: 30px;
 }
