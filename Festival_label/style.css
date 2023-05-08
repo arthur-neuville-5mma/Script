@@ -1,10 +1,10 @@
-@import url("https://use.typekit.net/hfi1kak.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
-    --bgc-01: hsl(213, 45%, 60%);
-    --bgc-02: hsl(0, 0%, 02%);
+    --bgc-01: #fffacf;
+    --bgc-02: #b9ead3;
     --txt-01: #ffff;
-    --txt-02: #D6BC78;
+    --txt-02: #000000;
 }
 
 * {
@@ -28,7 +28,10 @@ header {
     align-items: center;
     background-color: var(--bgc-02);
     padding: 1rem ;
-    color: var(--txt-02)
+    color: var(--txt-02);
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 header nav li{
@@ -78,11 +81,49 @@ header nav li:hover {
 color: white;
 }
 
+.input-container {
+    position: relative;
+}
+
+.input-container i{
+    color: #000000;
+    position: absolute;
+}
+
+input[type="text"] {
+    padding: 10px 20px 10px 1px;
+    font-size: 18px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 250px;
+}
+
 /* main vormgeving */
 
 main {
-    font-family: 'Courier New', Courier, monospace, Black;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
 }
+
+h2 {
+    color: #000000;
+    margin-right: 980px;
+    font-family: Lato, sans-serif;
+    font-weight: 700; 
+    font-size: 40px;
+}
+
+
+h2:after {
+    content: '';
+    display:block;
+    width: 170px;
+    height: 10px;
+    background-color: black;
+    filter: drop-shadow(2px 2px 0 #f00);
+    margin-left: 49px;
+}
+
 
 .grid-container {
     display: grid;
@@ -93,10 +134,8 @@ main {
 }
 
 .grid-item img {
-    width: 100%; 
-    height: 80%; 
-    border-style: ridge;
-    border-color: #D6BC78;
+    width: 300px;
+    height: 300px; 
 }
 
 .grid-item {
@@ -105,14 +144,7 @@ main {
 
 .grid-item h3 {
   position: absolute;
-  bottom: 90px;
+  bottom: 30px;
   left: 10px;
   letter-spacing: 0.5ch;
-}
-
-.grid-item p {
-    position: absolute;
-    bottom: 65px;
-    left: 10px;
-    letter-spacing: 0.5ch;
 }
