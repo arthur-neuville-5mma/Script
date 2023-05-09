@@ -1,3 +1,21 @@
 .btn-outline-success {
     color: rgb(0, 0, 0) !important;
 }
+
+.col img {
+    height: 200px;
+    width: 400px;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+}
+
+.nav-link {
+    font-size: 23px !important;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
