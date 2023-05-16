@@ -1,10 +1,24 @@
+body{
+    background-image: url(images/background.jpg);
+    color: white !important;
+}
+
+.navbar{    
+    --bs-navbar-active-color: rgb(255 255 255 / 90%) !important;
+    --bs-navbar-brand-color: rgb(255 255 255 / 90%) !important;
+    --bs-navbar-brand-hover-color: rgb(0 255 39 / 90%) !important;
+    --bs-navbar-color: rgb(255 255 255 / 55%) !important;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.7) !important;
+}
+
 .btn-outline-success {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    --bs-btn-hover-bg: #000000 !important;
 }
 
 .col img {
     height: 200px;
-    width: 400px;
+    width: 300px;
 }
 
 .navbar-brand {
@@ -18,4 +32,5 @@
 .row{
     margin-right: 0 !important;
     margin-left: 0 !important;
+    
 }
