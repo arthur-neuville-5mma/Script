@@ -154,6 +154,34 @@ h2:after {
   letter-spacing: 0.5ch;
 }
 
+/*main artiest vormgeving */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.container2 img{
+    width: 550px;
+    margin-left: -100px;
+    padding-bottom: 50px;
+}
+
+.grid-card {
+    padding: 0 20%;
+    padding-top: 8px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.icons {
+    font-size: 50px;
+    color: #f00;
+    text-align: center;
+    padding: 10% 0 0 0;
+}
+
 /* Footer */
 footer {
     background-color: rgb(255, 125, 125);
