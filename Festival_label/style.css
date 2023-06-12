@@ -32,6 +32,7 @@ header {
     font-family: Lato, sans-serif;
     font-size: 20px;
     font-weight: 400;
+    width: 100%;
 }
 
 header nav li{
@@ -83,7 +84,7 @@ color: white;
 
 .input-container {
     position: absolute;
-    margin-left: 950px;
+    margin-left: 75%;
 }
 
 .input-container i{
@@ -246,3 +247,77 @@ footer {
     font-size: 14px;
     color: #555;
   }
+/*hamburger menu*/
+header input#burger {
+    display: none;
+}
+
+header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    display: none;
+    padding-bottom: 100px;
+    background-color: none;
+    text-align: right;
+    cursor: pointer;
+}
+
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 3rem;
+    color: var(--txt-01);
+}
+
+  /*@media*/
+  @media (width <=751.1px) {
+    header label[for="burger"] {
+        display: block;
+        margin: 20px 30px 0 0;
+    }
+    header {
+        display: grid;
+        width: 100%;
+    }
+    
+    .input-container {
+        position:absolute;
+        margin: 0;
+    }
+    
+    #line-up .grid-container {
+        grid-template-columns: repeat(1, 9fr);
+        margin-right: 100%;
+    }
+    #line-up h2{
+        margin-left: 60px;
+    }
+    #line-up h2:after {
+        content: '';
+        display: grid;
+        width: 170px;
+        height: 10px;
+        background-color: black;
+        filter: drop-shadow(2px 2px 0 #f00);
+    }
+
+    #artists .container2 {
+        grid-template-columns: repeat(1, 9fr);
+    }
+
+    header nav ul {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        z-index: 3;
+        display: none;
+        user-select: none;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
