@@ -113,7 +113,7 @@ main {
 
 h2 {
     color: #000000;
-    margin-right: 980px;
+    margin-right: 950px;
     font-family: Lato, sans-serif;
     font-weight: 700; 
     font-size: 40px;
@@ -121,13 +121,13 @@ h2 {
 
 
 h2:after {
+    display: flex;
     content: '';
-    display:block;
     width: 170px;
     height: 10px;
     background-color: black;
     filter: drop-shadow(2px 2px 0 #f00);
-    margin-left: 49px;
+    margin-left: 65px;
 }
 
 
