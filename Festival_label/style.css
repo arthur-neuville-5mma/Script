@@ -307,11 +307,15 @@ header label[for="burger"] i {
     }
 
     header nav ul {
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        align-items: center;
+        position: fixed;
         z-index: 3;
+        top: 5rem;
+        right: 0;
         display: none;
+        padding-right: 1ch;
+        width: 100%;
+        background-color: var(--bgc-02);
+        text-align: right;
         user-select: none;
     }
 
