@@ -319,5 +319,12 @@ header label[for="burger"] i {
         display: flex;
         flex-direction: column;
     }
+    .input-container {
+        display: none;
+    }
+    figcaption {
+        display: none;
+    }
+    
 
 }
